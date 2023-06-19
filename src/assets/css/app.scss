@@ -1,0 +1,18 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid";
+
+@import "_tools/variables";
+@import "_tools/mixins";
+@import "_tools/_utilities";
+
+@import "_base/fonts";
+@import "_base/default";
+@import "_base/custom";
+@import "_base/buttons";
+
+@import "./_components/main";
+
+// fonts
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");

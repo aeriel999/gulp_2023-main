@@ -1,0 +1,56 @@
+* {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.site {
+    width: 1440px;
+    padding: 0;
+}
+
+.logo {
+    font-family: $main-font;
+    font-weight: 400;
+    text-align: right;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo > p:last-child {
+    color: $text_color_secondary;
+    font-weight: 600;
+}
+
+.logo > p {
+    padding: 0;
+    margin: 0;
+}
+
+h6 {
+    font-family: $secondary-font;
+    color: $text_color_secondary;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 450;
+}
+
+h1 {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 64px;
+    color: $text_color_primary;
+}
+
+h2 {
+    color: $text_color_secondary;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: $main-font;
+}

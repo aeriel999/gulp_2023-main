@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 24px;
+    color: $text_color_secondary;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid $text_color_secondary;
+    border-radius: 50px;
+    background: transparent;
+    &:hover {
+        background-color: $text_color_primary;
+        color: $bg_color_primary;
+    }
+}
+
+.btn-menu {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-family: $secondary-font;
+    font-size: 24px;
+    font-weight: 450;
+    border-radius: 50px;
+    background: transparent;
+    &:hover {
+        background-color: $text_color_primary;
+        color: $text_color_secondary;
+    }
+}

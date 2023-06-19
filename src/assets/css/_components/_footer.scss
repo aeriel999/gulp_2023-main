@@ -1,0 +1,38 @@
+footer {
+    height: 180px;
+    background-color: $bg_color_primary;
+    color: $text_color_primary;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-first {
+    font-family: $secondary-font;
+    margin-top: 20px;
+    padding-left: 110px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.f-second > div:first-child {
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.f-third {
+    margin-top: 20px;
+    
+}
+
+.f-third > div {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
